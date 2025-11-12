@@ -1,0 +1,105 @@
+/* Global Colors */
+/* palette.css */
+
+/* Base brand colors (provided) */
+:root {
+  --black: #000000ff;
+  --apple-green: #A6AF41ff;   /* warm, earthy yellow‑green */
+  --yinmn-blue: #444F7Fff;    /* deep desaturated indigo/blue */
+  --non-photo-blue: #81D1DCff;/* bright cyan‑blue */
+  --cal-poly-green: #1E4929ff;/* dark forest green */
+}
+
+/* Semantic roles built from the base palette */
+:root {
+  /* Primary brand (blue family) */
+  --primary: #444F7F;            /* yinmn blue */
+  --primary-contrast: #FFFFFF;   /* text on primary */
+  --primary-hover: #3C476F;      /* -10% lightness */
+  --primary-active: #313A57;     /* -20% lightness */
+
+  /* Accent (fresh cyan for CTAs) */
+  --accent: #81D1DC;             /* non-photo blue */
+  --accent-contrast: #0A0F1A;    /* deep ink for text on light accent */
+  --accent-hover: #72BFCA;
+  --accent-active: #5AA6B2;
+
+  /* Success (forest green) */
+  --success: #1E4929;            /* cal poly green */
+  --success-contrast: #FFFFFF;
+  --success-hover: #193F24;
+  --success-active: #12331C;
+
+  /* Warning (apple green skewed warmer for alerts) */
+  --warning: #A6AF41;            /* apple green */
+  --warning-contrast: #0E1200;   /* near‑black for legible text on yellow‑green */
+  --warning-hover: #949B39;
+  --warning-active: #7E842F;
+
+  /* Neutral surfaces */
+  --surface-0: #0B0D12;          /* near‑black (for dark UI) */
+  --surface-1: #12151D;          /* dark surface */
+  --surface-2: #1A1F2B;          /* dark elevated */
+  --surface-3: #232A3A;          /* dark highest elevation */
+
+  --surface-100: #F6F7FA;        /* light UI base */
+  --surface-200: #EEF1F6;        /* light elevated */
+  --surface-300: #E2E7F0;        /* light highest elevation */
+
+  /* Text colors */
+  --text-strong: #0B0D12;        /* strong body on light surfaces */
+  --text-muted: #4A5160;         /* subdued body on light */
+  --text-inverse: #FFFFFF;       /* text on dark surfaces */
+
+  /* Borders and outlines */
+  --border: #D3D8E4;             /* light border on light UI */
+  --border-strong: #374054;      /* border on dark UI */
+
+  /* Utility tints/shades derived for components */
+  --primary-100: #E8EBF6;        /* very light tint of primary (chips, badges) */
+  --primary-200: #B8C0DE;
+  --primary-300: #8796C7;
+
+  --accent-100: #E6F7FA;
+  --accent-200: #CBEFF4;
+  --accent-300: #A6E4EC;
+
+  --success-100: #E8F3EC;
+  --success-200: #CDE6D4;
+  --success-300: #A4D1B1;
+
+  --warning-100: #F8F7E3;
+  --warning-200: #EEEBC4;
+  --warning-300: #D9D38F;
+}
+
+/* Typography */
+:root {
+  --font-family-sans-serif: "Helvetica Neue", Arial, sans-serif;
+  --font-family-monospace: "Courier New", monospace;
+  --font-size-base: 16px;
+  --line-height-base: 1.5;
+  --heading-font-weight: 700;
+}
+
+/* Spacing */
+:root {
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+}
+
+/* Border Radii */
+:root {
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+}
+
+/* Box Shadows */
+:root {
+  --box-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --box-shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
